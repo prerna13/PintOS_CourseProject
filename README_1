@@ -1,0 +1,14 @@
+Please follow following two instructions to apply patch
+
+1. cd to src/ directory in pintos folder
+
+2. execute from there:  patch -p3 < final.patch
+
+To remove the applied patch follow:
+
+1. cd to src/ directory in pintos folder
+
+2. execute from there: patch -Rp3 < final.patch 
+
+The Patch contains only the source file changes.
+
